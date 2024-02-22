@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(248, 248, 248);
+}
+.body-work {
+  background-color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+  max-width: 40vw;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+header {
+  display: flex;
+}
+#user {
+  font-weight: bold;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  color: rgb(9, 60, 99);
+  text-decoration: none;
+}
+/* this codes #user:hover p and .icon-hover enables you to see a hover effect when you hover on the icon */
+#user:hover p {
+  display: flex;
+  font-family: Georgia, serif;
+  color: black;
+  font-weight: normal;
+  color: rgb(135, 211, 251);
+}
+.copyurl {
+  display: none;
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+}
+.user-dowload-icon {
+  margin-left: 400px;
+  word-spacing: 10px;
+  font-weight: bold;
+}
+span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: rgb(9, 60, 99);
+}
+#user-icon {
+  font-size: 200px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  color: rgb(9, 60, 99);
+}
+#film-moon {
+  color: rgb(9, 60, 99);
+  word-spacing: 35vw;
+}

@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  box-shadow: rgb(238, 238, 238) 0px 1px 1px;
+  background-color: rgb(255, 255, 255);
+}
+img {
+  position: relative;
+  top: 10px;
+  min-height: 100%;
+}
+input {
+  margin-left: 10px;
+}
+input[type="text"] {
+  background-image: url("download.png");
+  border: 1px solid rgb(206, 200, 200);
+  background-color: inherit;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px 16px;
+  outline: none;
+}
+input[type="text"]:focus {
+  border-color: rgb(50, 49, 49);
+}
+::placeholder {
+  padding-left: 50px;
+  color: gray;
+  font-size: 18px;
+}
+#icon {
+  color: gray;
+  position: relative;
+  right: 440px;
+  margin-right: 10px;
+  z-index: 1;
+}
+/* div container holding the plus sign and the create text */
+div.plus-create {
+  box-sizing: inherit;
+  display: inline-block;
+  border: 1px solid rgb(206, 200, 200);
+  padding: 10px;
+  margin-left: 200px;
+}
+.plus-create a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.login-details {
+  margin-left: 19rem;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #001433;
+  font-family: sans-serif;
+}
+.signup-details {
+  text-decoration: none;
+  margin-left: 40px;
+  border: 1px solid #001433;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  background-color: #001433;
+  font-family: sans-serif;
+}
+section.side-bar {
+  margin: 0;
+  padding: 0;
+  min-width: 8%;
+  color: rgba(183, 181, 181, 0.4);
+  text-align: center;
+  background: #01122b;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+div > p {
+  margin-top: 5px;
+}
+.icon-home,
+.icon-explore,
+.icon-notification,
+.icon-profile {
+  margin-top: 30px;
+  cursor: pointer;
+}

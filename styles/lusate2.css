@@ -1,0 +1,39 @@
+body {
+  background-color: #001524;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: sans-serif;
+}
+a:hover {
+  font-size: 16px;
+  color: white;
+  text-decoration: decorate;
+}
+h1 {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+p {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.register_today {
+  background-color: blue;
+  width: 150px;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+register_today:hover {
+  color: black;
+  background-color: white;
+}

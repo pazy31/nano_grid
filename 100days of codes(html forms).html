@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>HTML forms</title>
+  </head>
+  <body>
+    <form action="user-data.php" method="POST /GET">
+      <lable for="username">Name</lable>
+      <input type="text" name="user-name" id="username" />
+      <label for="useremail">Email</label>
+      <input type="email" name="user-email" id="useremail" />
+      <label for="userage">Age</label>
+      <input type="number" name="user-age" id="userage" step="9" />
+      <label for="userpassowrd">Password</label>
+      <input type="password" id="userpassword" name="user-password" />
+      <label for="userbirthdate">Date of Birth</label>
+      <input type="date" id="userbirthdate" name="user-birthdate" />
+      <hr />
+      <h2>How do you want to be verified</h2>
+      <div class="control-form">
+        <input
+          type="radio"
+          name="verify"
+          id="verify-message"
+          value="text-message"
+        />
+        <label for="verify-message">Via text-mesage</label>
+      </div>
+      <div class="control-form">
+        <input
+          type="radio"
+          name="verify"
+          id="verify-phone-call"
+          value="phone-call"
+        />
+        <label for="verify-phone-call">Via Phone call</label>
+      </div>
+      <div class="control-form">
+        <input type="radio" name="verify" id="verify-email" value="email" />
+        <label for="verify-email">Email</label>
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
