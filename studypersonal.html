@@ -5,27 +5,16 @@
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <title>Document</title>
     <style>
-      div.container {
-        position: relative;
-        width: 500px;
-      }
-      div.detail {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-      }
-      img {
-        filter: sepia(100%);
+      img{
+        mask-image: url(img/icon.png);
+        mask-repeat: no-repeat;
+        mask-size: cover;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <img src="img/img_forest.jpg" alt="forest" width="500" height="300" />
-      <div class="detail">
-        <p>This is sold</p>
+      <img src="img/img_forest.jpg" alt="forest" />
       </div>
     </div>
   </body>
