@@ -11,7 +11,7 @@ main.my-container {
   padding: 20px 0 0 10px;
   display: grid;
   gap: 10px 10px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto;
 }
 .parent {
   width: 100%;
