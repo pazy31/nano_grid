@@ -4,3 +4,6 @@ const profile = {
   regno: 1018 / 241990,
 };
 console.log(profile);
+let person = "obi";
+alert(person);
+init;
