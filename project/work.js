@@ -3,7 +3,5 @@ const profile = {
   age: 15,
   regno: 1018 / 241990,
 };
-console.log(profile);
-let person = "obi";
-alert(person);
-init;
+console.log(typeof profile);
+["Aaliyah", 25];
